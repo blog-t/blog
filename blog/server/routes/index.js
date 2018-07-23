@@ -1,46 +1,28 @@
 "use strict"
 
 const express = require('express');
+const mongoose = require('mongoose');
 const router = express.Router();
 
+const UserModel = require('../models/user/userModel');
+
 // 首页
-router.get('/home',function (req, res) {
-    res.json({
-        a:1,
-        b:2,
-        c:3
-    });
-});
-
-// 登录页面
-router.get('/login',function (req, res) {
-    res.json({
-        logined:true
-    });
-});
-
-// 登录接口
-router.post('/do_login',function (req, res) {
-    res.json({
-        success:true,
-        err_no:0
-    });
-});
-
-// 注册页面
-router.get('/register',function (req, res) {
-    res.json({
-        register:true
-    });
-});
-
-// 注册接口
-router.post('do_register',function (req, res) {
-    res.json({
-        success:true,
-        err_no:0
-    });
-});
+// router.get('/home',function (req, res) {
+//     console.log("======================");
+//     console.log(req.body);
+//     const user = req.cookies.user;
+//     if(req.cookies.blog){
+//         res.json({
+//             success:true,
+//             loginStatus : true
+//         })
+//     }else {
+//         res.json({
+//             success:false,
+//             loginStatus:false
+//         })
+//     }
+// });
 
 // 新增博客接口
 router.post('/new_article',function (req, res) {

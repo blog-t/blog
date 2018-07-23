@@ -1,0 +1,10 @@
+.clear{
+  zoom:1;
+  &:after{
+    display: block;
+    content:'.';
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}

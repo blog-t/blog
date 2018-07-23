@@ -1,0 +1,29 @@
+.login{
+  height:100%;
+  background:url('../../assets/image/8.jpg') no-repeat center;
+  background-size: cover;
+  .login-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    .ant-row{
+      width:260px;
+    }
+    .login-register{
+      .ant-form-item-children{
+        display: flex;
+        justify-content: space-between;
+        .login-form-button{
+          flex: 1;
+          &:first-child{
+            margin-right:10px;
+          }
+          &:last-child{
+            margin-left:10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.register {
+  height: 100%;
+  background: url("../../assets/image/9.jpg") no-repeat center;
+  background-size: cover; }
+  .register .register-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .register .register-content .ant-row {
+      width: 260px; }
+    .register .register-content .register-register .ant-form-item-children {
+      display: flex;
+      justify-content: space-between; }
+      .register .register-content .register-register .ant-form-item-children .register-form-button {
+        flex: 1; }
+        .register .register-content .register-register .ant-form-item-children .register-form-button:first-child {
+          margin-right: 10px; }
+        .register .register-content .register-register .ant-form-item-children .register-form-button:last-child {
+          margin-left: 10px; }
+
+.ant-alert-error {
+  width: 368px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=index.css.map */

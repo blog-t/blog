@@ -1,0 +1,22 @@
+.login {
+  height: 100%;
+  background: url("../../assets/image/8.jpg") no-repeat center;
+  background-size: cover; }
+  .login .login-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .login .login-content .ant-row {
+      width: 260px; }
+    .login .login-content .login-register .ant-form-item-children {
+      display: flex;
+      justify-content: space-between; }
+      .login .login-content .login-register .ant-form-item-children .login-form-button {
+        flex: 1; }
+        .login .login-content .login-register .ant-form-item-children .login-form-button:first-child {
+          margin-right: 10px; }
+        .login .login-content .login-register .ant-form-item-children .login-form-button:last-child {
+          margin-left: 10px; }
+
+/*# sourceMappingURL=index.css.map */
